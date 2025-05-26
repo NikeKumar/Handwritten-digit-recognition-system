@@ -14,7 +14,7 @@ UPLOAD_FOLDER = 'uploads'
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-model = load_model("models\mnistCNN.h5")
+model = load_model("models/mnistCNN.h5")
 
 
 @app.route('/')
